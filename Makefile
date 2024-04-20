@@ -7,7 +7,7 @@ format:
 
 train:
 	python train.py
-	
+
 eval:
 	echo '\n## Confusion Matrix Plot' >> report.md
 	echo '![Model performance report](./history/current_result.png)' >> report.md

@@ -14,5 +14,6 @@ eval:
    
 	cml comment create report.md
 
-git commit -am "new changes"
-git push origin main
+main-branch:
+	git commit -am "new changes"
+	git push origin main

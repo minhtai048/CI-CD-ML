@@ -11,7 +11,7 @@ train:
 eval:
 	echo '\n## Confusion Matrix Plot' >> report.md
 	echo '![Model performance report](./history/current_result.png)' >> report.md
-   
+
 	cml comment create report.md
 
 main-branch:

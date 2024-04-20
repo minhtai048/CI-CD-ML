@@ -72,9 +72,9 @@ def train_and_evaluate():
 def saving_plotting(best_model, df):
     pickle.dump(best_model, open('models/best_model.pkl', 'wb'))
     current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    save_path = 'history/' + current_time + '.png'
+    save_path = './history/' + current_time + '.png'
     dfi.export(df, save_path)
-    dfi.export(df, 'history/current_result.png')
+    dfi.export(df, './history/current_result.png')
 
 if __name__ == "__main__":
     best_model, df = train_and_evaluate()

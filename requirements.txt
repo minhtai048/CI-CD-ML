@@ -8,5 +8,6 @@ scikit-learn==1.1.0
 dataframe_image==0.2.3
 xgboost==2.0.3
 matplotlib==3.7.5
+black
 pickle4
 gunicorn
